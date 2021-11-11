@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- 팝업 -->
+ <script type="text/javascript"> 
+      function getCookie(name) { 
+        var cookie = document.cookie; 
+        if (document.cookie != "") { 
+          var cookie_array = cookie.split("; "); 
+          for ( var index in cookie_array) { 
+            var cookie_name = cookie_array[index].split("="); 
+            if (cookie_name[0] == "popupYN") { 
+              return cookie_name[1]; } } } 
+        return ; } 
+      function openPopup(url) { 
+        var cookieCheck = getCookie("popupYN"); 
+        if (cookieCheck != "N") 
+          window.open(url, '', 'width=519,height=743,left=0,top=0') } 
+    </script>
+    <!-- 팝업 -->
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>::: 청년백수PC :::</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!-- 슬라이더-->
+  <script src="https://use.fontawesome.com/6fc67f5ece.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<!-- 슬라이더-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout" onload="javascript:openPopup('popup.html')">
+
+ <!-- 플로팅 메뉴 -->
+<table   id="floating_menu" style="position:fixed; top:30%; right:0%; z-index: 5; ">
+  
+  <td colspan="2" style="text-align: center">
+      <div style="border-radius: 15px; border: 1px solid #d7d7d7; padding: 10px; background-color: #ffffff; ">
+                  <div>
+</div>
+<div >
+<a href="http://pf.kakao.com/_WLIhM/chat" title="- 카톡"><img src="/images/kakaotalk.png" frameborder="0" width="67px;"/></a>
+</div>
+<br>
+<div >
+<a href="tel:070-4151-1245" title="- 예약 전화"><img src="/images/call.png" frameborder="0" width="67px;"/></a>
+</div>        
+</table>
+<!-- 플로팅 메뉴 -->
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="header-top">
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                            <div class="full">
+                                <div class="center-desk">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- end header inner -->
+
+            <!-- end header -->
+            <section class="slider_section">
+                <div class="banner_main">
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-2 padding_left0">
+                                <div class="menu-area">
+                                <div class="limit-box">
+                                    <nav class="main-menu">
+                                        <ul class="menu-area-main">
+                                            <li > <a href="#Service">Service</a> </li>
+                                            <li> <a href="#Event">Event</a> </li>
+                                            
+                                            <li> <a href="https://cafe.naver.com/artnox">Naver Cafe</a> </li>
+                                            <li> <a href="http://pf.kakao.com/_WLIhM/chat">Kakao Talk</a> </li>
+                                           <li> <a href="#about">Way To Come</a> </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+                                <div class="text-bg">
+                                    <h1>amazing<br> Desktop</h1>
+                                    <span>청년백수PC는 고객님께<br> 최선을 다할것입니다.</span>
+                                   
+                                </div>
+                            </div>
+                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                                <div class="text-img">
+                                   <figure><img src="images/img.png" alt="#"/></figure>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+        
+           </section>
+        </div>
+    </header>
+
+    <!-- our -->
+    <div id="Service" class="our">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Our Service</h2>
+                    </div>
+                </div>
+            </div>
+               <div class="row">
+                <div class="col-md-4">
+                   <div class="serv-cover">
+                        <div class="icon"> 
+                        
+                            <i class="fa fa-comments-o fa-5x" aria-hidden="true"></i>
+                     </div>
+                        <div class="detail">
+                            <h1>1:1 맞춤 견적</h1>
+                            <p></p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serv-cover">
+                        <div class="icon">
+                           <i class="fa fa-database fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <div class="detail">
+                            <h1>데이터 복구</h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serv-cover">
+                        <div class="icon">
+                            <i class="fa fa-server fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <div class="detail">
+                            <h1>서버/워크 스테이션 작업</h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serv-cover">
+                        <div class="icon">
+                            <i class="fa fa-download fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <div class="detail">
+                            <h1>소프트웨어 설치</h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+   
+    <!-- end our -->
+    <!-- We are -->
+    <div id="Event" class="We_are">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Event</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                     <div class="box_bg">
+                         <div class="box_bg_img">
+                             <figure><img src="images/soft.jpg"></figure>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
+                     <div class="box_text">
+                          <h1>
+                          CPU :
+                          </h1>
+                           <h1>
+                          M/B :
+                          </h1>
+                           <h1>
+                          RAM :
+                          </h1>
+                           <h1>
+                          VGA :
+                          </h1>
+                          <h1>
+                          POWER :
+                          </h1>
+                          <br>
+                         <a href="https://smartstore.naver.com/pc-one">구매하기</a>
+                     </div>
+                 </div> 
+            </div>
+        </div>
+    </div>
+    <!-- end We are -->
+<br><br><br>
+<!-- 조립사진 -->
+    <div id="Photo" class="Photo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Photo</h2>
+                    </div>
+                </div>
+            </div>
+        <div class="row no-gutters">
+          <div class="col-md-6 col-lg-3">
+            <a href="/images/01.jpg" data-title="조립사진" data-lightbox="example-set"><img src="/images/01.jpg" alt="" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a  href="/images/02.jpg" data-title="조립사진" data-lightbox="example-set"><img src="/images/02.jpg" alt="" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a  href="/images/03.jpg" data-title="조립사진" data-lightbox="example-set"><img src="/images/03.jpg" alt="" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+             <a  href="/images/04.jpg" data-title="조립사진" data-lightbox="example-set"><img src="/images/04.jpg" alt="" class="img-fluid"></a>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+    <!-- 조립사진 -->
+
+
+
+
+
+<br><br>
+     <!-- about  -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Way To Come</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about-box">
+                    <!-- 지도 -->
+                      <div id="map" style="width:1100px;height:500px;"></div>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4d4c916893b1cf3e8635eb5554bfdb0b"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(37.532725027766325, 126.9653992611464),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+        // 마커가 표시될 위치입니다 
+var markerPosition  = new kakao.maps.LatLng(37.532725027766325, 126.9653992611464); 
+
+// 마커를 생성합니다
+var marker = new kakao.maps.Marker({
+    position: markerPosition
+});
+
+// 마커가 지도 위에 표시되도록 설정합니다
+marker.setMap(map);
+
+	</script>  <!-- 지도 -->
+
+                        <p> 서울시 용산구 새창로 181 <br>선인상가 21동 2층 159호 </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end abouts -->
+
+    
+
+    
+
+
+
+
+    <!--  footer -->
+    <footr>
+        <div class="footer ">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-10 offset-md-1">
+                       
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+                               
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="address">
+                                    <h3>Quick links</h3>
+                                    <ul class="Menu_footer">
+                                        <li > <img src="images/3.png" alt="#"> <a href="#Service">Service</a> </li>
+                                        <li><img src="images/3.png" alt="#"> <a href="#Event">Event</a> </li>
+                                       
+                                        <li><img src="images/3.png" alt="#"> <a href="https://cafe.naver.com/artnox">Naver Cafe</a> </li>
+                                        <li><img src="images/3.png" alt="#"> <a href="http://pf.kakao.com/_WLIhM/chat">Kakao Talk</a> </li>
+                                        <li> <img src="images/3.png" alt="#"> <a href="#about">Way To Come</a> </li>
+
+
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                           
+
+                            <div class="col-lg-3 col-md-6 col-sm-6 ">
+                                <div class="address">
+                                    <h3>Contact us </h3>
+                                    <ul class="loca">
+                                        <li>
+                                            <a href="#about"><img src="icon/loc.png" alt="#" /> 서울시 용산구 새창로 181
+                                            <br>선인상가 21동 2층 159호</li></a>
+                                    
+                                        <li>
+                                            <a href="tel:070-4151-1245"><img src="icon/call.png" alt="#" /> 070 - 4151 - 1245</li></a>
+                                        <li>
+                                            <a href="https://www.ftc.go.kr/www/bizCommList.do?key=232"><img src="icon/text.png" alt="#" /> 사업자 번호<br> 
+                                            110-86-19208 주식회사 피씨원</li></a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p>© 2019 All Rights Reserved. <a href="https://html.design/">Free html Templates</a></p>
+                </div>
+            </div>
+        </div>
+    </footr>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+   
+
+</body>
+
+</html>
