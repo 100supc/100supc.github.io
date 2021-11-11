@@ -301,7 +301,7 @@
                 <div class="col-md-12">
                     <div class="about-box">
                     <!-- 지도 -->
-                      <div id="map" style="width:400px;height:300px; text-align: center;" ></div>
+                      <div id="map" style="width:100%;height:350px; " ></div>
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4d4c916893b1cf3e8635eb5554bfdb0b"></script>
 	<script>
 		var container = document.getElementById('map');
@@ -311,6 +311,25 @@
 		};
 
 		var map = new kakao.maps.Map(container, options);
+		
+		
+		
+		
+		 // 지도를 표시하는 div 크기를 변경하는 함수입니다
+                      function resizeMap() {
+                          var mapContainer = document.getElementById('map');
+                          mapContainer.style.width = '650px';
+                          mapContainer.style.height = '650px'; 
+                      }
+                      
+                      function relayout() {    
+                          
+                          // 지도를 표시하는 div 크기를 변경한 이후 지도가 정상적으로 표출되지 않을 수도 있습니다
+                          // 크기를 변경한 이후에는 반드시  map.relayout 함수를 호출해야 합니다 
+                          // window의 resize 이벤트에 의한 크기변경은 map.relayout 함수가 자동으로 호출됩니다
+                          map.relayout();
+                      }
+		
         // 마커가 표시될 위치입니다 
 var markerPosition  = new kakao.maps.LatLng(37.532725027766325, 126.9653992611464); 
 
